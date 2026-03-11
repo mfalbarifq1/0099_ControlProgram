@@ -12,4 +12,8 @@ int main() {
 
     bmi = berat / (tinggi * tinggi);
     cout << "Skor BMI Anda: " << bmi << endl;
+
+    if (bmi < 18.5) {
+        cout << "Status: Kamu kurus sekali" << endl;
+    }
 }
