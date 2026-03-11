@@ -16,4 +16,6 @@ int main() {
     if (bmi < 18.5) {
         cout << "Status: Kamu kurus sekali" << endl;
     }
+    else {
+
 }
