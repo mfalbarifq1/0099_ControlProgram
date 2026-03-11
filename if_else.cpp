@@ -11,4 +11,5 @@ int main() {
 
 
     bmi = berat / (tinggi * tinggi);
+    cout << "Skor BMI Anda: " << bmi << endl;
 }
