@@ -7,5 +7,8 @@ int main() {
     cout << "Berapa berat badan kamu (kg)? ";
     cin >> berat;
     cout << "Berapa tinggi badan kamu (meter, contoh 1.7)? ";
-   
+    cin >> tinggi;
+
+
+    bmi = berat / (tinggi * tinggi);
 }
